@@ -18,7 +18,7 @@ require(["gitbook", "jQuery"], function(gitbook, $) {
 
         gitbook.toolbar.createButton({
             icon: 'fa fa-edit',
-            position: 'left',
+            position: 'right',
             text: label,
             onClick: function() {
                 var filepath = gitbook.state.filepath;
